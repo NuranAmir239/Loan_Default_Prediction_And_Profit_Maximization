@@ -50,13 +50,16 @@ The repository is organized as follows:
 
 ```
 
-├── data_analysis/                                           # Folder containing the dataset 
-| |──yLoan_Default.html                                      # HTML file for a full data profiling
-├── notebooks/                                               # Jupyter notebooks for exploratory data analysis and development 
-│ ├── Explorartory_Data_Analysis.ipynb.py                    # Data Analysis
-│ ├── Loan_Default_Prediction_and_Profit_Maximization.ipynb  # Model training script 
-├── requirements.txt       # List of required Python packages 
-├── README.md              # Project documentation
+├── data_analysis/                                                # Folder containing the dataset 
+| |── yLoan_Default.html                                          # HTML file for a full data profiling
+|── docs                                                          # Documentationa and reporting solution approach
+| |── Approach_to_the_Solution.md                                 # Details of the approach taken
+| |── Business_Overview_and_Thoughts_about_the_Problem_Statement  # Business Overview of the task
+├── notebooks/                                                    # Jupyter notebooks for exploratory data analysis and development 
+│ ├── Explorartory_Data_Analysis.ipynb.py                         # Data Analysis
+│ ├── Loan_Default_Prediction_and_Profit_Maximization.ipynb       # Model training script 
+├── requirements.txt                                              # List of required Python packages 
+├── README.md                                                     # Project documentation
 
 ```
 
