@@ -1,7 +1,7 @@
 # Loan Approval System - Maximizing Net Profit
 
 ## **Problem Statement**
-Financial institutions face a challenge in balancing profitability and risk when approving loans. Each approved loan generates a flat income of 30 OMR but carries the risk of default, leading to losses ranging from 100 OMR to 1000 OMR. The objective is to design a system that predicts loan defaults and optimizes approval decisions to maximize net profit.
+Financial institutions face a challenge in balancing profitability and risk when approving loans. Each approved loan generates a flat income of 30 OMR but carries the risk of default, leading to losses ranging from 50 OMR to 1000 OMR. The objective is to design a system that predicts loan defaults and optimizes approval decisions to maximize net profit.
 
 ---
 
@@ -92,4 +92,7 @@ Loan_Default_Prediction_and_Profit_Maximization.ipynb: For model training, evalu
 | Logistic Regression  | 0.88     | 56141               | 7071                | **256556.82**        |
 | GaussianNB           | 0.89     | 56284               | 7188                | **237562.77**        |
 
+## Documentation
+
+Please refer to the folder ```docs``` for more documentation on choices made, approach, and business overview
 
