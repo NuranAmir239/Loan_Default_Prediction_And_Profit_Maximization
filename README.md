@@ -92,7 +92,8 @@ Loan_Default_Prediction_and_Profit_Maximization.ipynb: For model training, evalu
 | Logistic Regression  | 0.88     | 56141               | 7071                | **256556.82**        |
 | GaussianNB           | 0.89     | 56284               | 7188                | **237562.77**        |
 
-## Documentation
+## Summary of the Approach
 
-Please refer to the folder ```docs``` for more documentation on choices made, approach, and business overview
+**Please refer to the folder ```docs``` for more detailed documentation on choices made, approach, and business overview**
 
+The solution began with a thorough **EDA** to understand the data's structure, address class imbalance, and drop irrelevant features. The data was then split into training and testing sets, with light preprocessing applied. Various classifiers were tested, and **XGBClassifier** was selected for its balance of accuracy, runtime, and profit maximization. An ensemble approach using undersampled, oversampled, and original datasets further improved performance. Optimization was carried out at multiple levels, including individual model thresholds, ensemble weighting, and final threshold tuning, ensuring the best balance between precision and recall for maximizing net profit.
