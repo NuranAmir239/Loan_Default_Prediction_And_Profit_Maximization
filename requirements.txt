@@ -1,0 +1,16 @@
+kagglehub
+seaborn
+imblearn
+xgboost
+catboost
+scikit-optimize
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+scipy
+ydata-profiling
+
+
+
