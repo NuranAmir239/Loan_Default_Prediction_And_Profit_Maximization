@@ -23,9 +23,7 @@ The solution is built using machine learning techniques with the following compo
 
 ## **Assumptions**
 1. The dataset provided is representative of real-world loan applications and defaults.
-2. Loss from defaults is uniformly distributed between 100 OMR and 1000 OMR.
-3. The approval threshold can be dynamically adjusted based on the model’s predicted probabilities.
-
+2. Loss from defaults is uniformly distributed between 50 OMR and 1000 OMR.
 ---
 
 ## **Prerequisites**
